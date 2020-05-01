@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int  main()
+{
+int age;
+char f_name[10000];
+char l_name[10000];
+int standard;
+cin>>age;
+cin>>f_name;
+cin>>l_name;
+cin>>standard;
+cout<<age<<endl;
+cout<<l_name<<", "<<f_name<<endl;
+cout<<standard;
+cout<<endl<<endl;
+cout<<age<<","<<f_name<<","<<l_name<<","<<standard;
+return 0;
+
+
+
+
+
+
+}
