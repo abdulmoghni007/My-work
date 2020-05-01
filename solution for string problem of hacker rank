@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+int main() {
+    char a[15000];
+    char b[15000];
+    char c[15000];
+    char r;
+    cin>>a;
+    cin>>b;
+    strcpy(c,a);
+    strcat(a,b);
+    r=c[0];
+    c[0]=b[0];
+    b[0]=r;
+    cout<<strlen(c)<<" "<<strlen(b)<<endl<<a<<endl<<c<<" "<<b;
+
+
+
+    return 0;
+}
+
